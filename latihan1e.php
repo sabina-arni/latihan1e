@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MY PORTOFOLIO</title>
+</head>
+<body>
+	<h1>BELAJAR MEMBUAT WEB</h1>
+	<h2>BELAJAR MEMBUAT WEB</h2>
+	<h3>BELAJAR MEMBUAT WEB</h3>
+	<h4>BELAJAR MEMBUAT WEB</h4>
+	<h5>BELAJAR MEMBUAT WEB</h5>
+	<h6>BELAJAR MEMBUAT WEB</h6>
+	<a href="https://unimor.ac.id">Universitas Timor</a>
+	<a href="https://unimor.ac.id">Univeristas Timor</a>
+	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, officia impedit officiis quia, ut nemo vitae reiciendis voluptatum repellat modi quibusdam porro dignissimos dolor rerum, voluptas non, labore excepturi commodi!</p>
+	<br>
+	<hr>
+	<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Minima eaque sunt, modi quae corrupti fugiat eos! Illo neque, itaque laboriosam. Totam rem eligendi ratione, ullam dolore quos quam quisquam nesciunt?</p>
+		<hr>
+			<b>ini format format text tebal</b><br/>
+				<i>ini format text text italic</i><br/>
+	        <u>ini format text underline</u><br/>
+	        <em>ini format text em</em><br/>
+	        <small>ini format text small</small><br/>
+	        <strong>ini format text strong</strong><br/>
+	        <sub>ini format text sub</sub><br/>
+	        <sup>ini format text sup</sup><br/>
+	        <ins>ini format text ins</ins><br/>
+	        <del>ini format text dell</del><br/>
+	        <mark>ini format text mark</mark><br/>
+	      <img src="image/bungatulip.jpg" alt ="cantik" width="300"> 
+</body>
+</html>
