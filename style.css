@@ -1,27 +1,46 @@
 /* ==================== */
 /* PENGATURAN DASAR HALAMAN */
 /* ==================== */
+/* BACKGROUND FOTO PEMANDANGAN */
 
-body{
-    background-color: skyblue;"
-    font-family: arial, sans-serif;
+/* Background foto pemandangan */
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
+    font-family: Arial, sans-serif;
     color: #800020;
-
-    margin: 0px;
-
-    padding: 0px;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-/* ==================== */
-/* CONTAINER UTAMA */
-/* ==================== */
-
+/* Ukuran halaman CV */
 .container {
-    width: 80%;
-    margin: 30px auto;
-    padding: 30px;
-    background-color:white;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px;
+    box-sizing: border-box;
+
+    background-color: rgba(255, 255, 255, 0.90);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Agar CV tetap menyesuaikan layar HP */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+        background-attachment: scroll;
+    }
+
+    .container {
+        padding: 15px;
+    }
 }
 
 /* ==================== */
@@ -141,7 +160,7 @@ form {
 
 /* KELOMPOK UNIT */
 
-.Form-group{
+.form-group{
     margin-bottom: 15px;
 }
 
